@@ -1,0 +1,7 @@
+<h1>Count</h1>
+<h2>IT has word counts of {{ counts }}</h2>
+<h2>{{ fulltext }}</h2>
+{% for w, c in sortedcount %}
+  {{ w }} = {{ c }}
+  <br> 
+{% endfor %}
